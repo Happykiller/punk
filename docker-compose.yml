@@ -8,5 +8,5 @@ services:
     ports:
       - 8082:80
     volumes:
-      - ./LocalSettings.php:/var/www/html/LocalSettings.php
+      - ./punk_logo.png:/var/www/html/punk_logo.png
       - ./images:/var/www/html/images
