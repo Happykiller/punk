@@ -10,3 +10,4 @@ services:
     volumes:
       - ./punk_logo.png:/var/www/html/punk_logo.png
       - ./images:/var/www/html/images
+      - ./LocalSettings.php:/var/www/html/LocalSettings.php
